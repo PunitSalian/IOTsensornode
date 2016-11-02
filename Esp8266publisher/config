@@ -1,0 +1,11 @@
+local module = {}
+
+module.SSID = {}  
+module.SSID[""] = "PUN"
+
+module.HOST = "broker.example.com"  
+module.PORT = 1884  
+module.ID = node.chipid()
+
+module.ENDPOINT = "nodemcu/"  
+return module  

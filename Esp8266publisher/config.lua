@@ -2,7 +2,7 @@
 local module = {}
 
 module.SSID = {}  
-module.SSID["Pun"] = "PUNITsalian7@"
+module.SSID["Pun"] = ""
 
 module.HOST = "m13.cloudmqtt.com"  
 module.PORT = 14010  
